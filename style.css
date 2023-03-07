@@ -24,7 +24,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     max-width: 300px;
-    max-height: 480px;
+    max-height: 1000px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -52,8 +52,8 @@ body {
     background-color: hsl(225, 100%, 98%);
     border-radius: 12px;
     display: flex;
-    padding: 12px;
-    height: 80px;
+    padding: 10px;
+    height: 60px;
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
@@ -70,6 +70,7 @@ body {
 }
 
 .plan-box-left div h5{
+    margin-top: 20px;
     font-weight: 900;
     font-size: 12px;
     color: hsl(223, 47%, 23%);
@@ -81,7 +82,8 @@ body {
 }
 
 .plan-box a{
-    font-weight: 600;
+    font-weight: 350;
+    font-size: 13px;
     color: hsl(223, 47%, 23%);
     transition: color .3s ease;
 }
@@ -96,10 +98,12 @@ a.proceed-btn {
     text-decoration: none;
     color: white;
     background-color: hsl(245, 75%, 52%);
-    padding: 20px 0;
+    padding: 10px 0;
     border-radius: 12px;
-    margin: 30px 0;
+    margin: 10px 0;
     transition: background-color .3s ease;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 a.proceed-btn:hover {
@@ -110,6 +114,7 @@ a.cancel-btn {
     color: hsl(224, 23%, 55%);
     text-decoration: none;
     font-weight: 900;
+    font-size: 12px;
     transition: color .3s ease;
 }
 
